@@ -5,3 +5,8 @@ version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.DimensionalAndMart.Spark.Databricks'
   version: '1.8.0'
+sourceSystems:
+  - id: 'b06dc8b9-b0e5-4cfc-8d1f-22863f4d04ae'
+    name: 'bigenius-source-server.database.windows.net'
+    description: ''
+    sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
