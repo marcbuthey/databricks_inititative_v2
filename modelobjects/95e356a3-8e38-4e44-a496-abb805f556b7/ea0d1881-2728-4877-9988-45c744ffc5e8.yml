@@ -1,0 +1,130 @@
+id: 'ea0d1881-2728-4877-9988-45c744ffc5e8'
+name: 'stores'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '1ca6d124-75e0-4f51-a355-af0e84737ed8'
+    name: 'store_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+      precision: 10
+      scale: 0
+  - id: '9223ce02-fe6f-4889-920a-d40e0618a4c6'
+    name: 'store_name'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a68c2153-ca8f-4d82-bd1c-5c33a54f44d2'
+    name: 'web_address'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 100
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6944efe2-dbb3-48ec-abe1-44077265131b'
+    name: 'physical_address'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 512
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '360c6903-3684-4a39-9f5e-cb74c7f0437c'
+    name: 'latitude'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 9
+      scale: 6
+  - id: '501495cb-d898-4408-9e0d-82e5b405d027'
+    name: 'longitude'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 9
+      scale: 6
+  - id: 'a1192a5f-6372-461b-b211-28e03b80c772'
+    name: 'logo'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '1608ad85-f315-4b0f-9321-b906e8e76534'
+  - id: 'd5cdb7d2-fc7f-4266-9c06-bbb4328572c6'
+    name: 'logo_mime_type'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 512
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b0e2e757-38bd-4bb4-8f49-c8c7d50c1581'
+    name: 'logo_filename'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 512
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '755be959-fdca-46a4-bab2-53a65ee8d2c4'
+    name: 'logo_charset'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 512
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'aa611789-a8d1-42b0-87e5-b932b1c52ddf'
+    name: 'logo_last_updated'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+tags:
+  - '$discovery#id#1d411f14-1d46-42ec-9417-1fa6fce64a96'
+  - '$initial#name#stores'
+  - '$sourcesystem#id#b06dc8b9-b0e5-4cfc-8d1f-22863f4d04ae'

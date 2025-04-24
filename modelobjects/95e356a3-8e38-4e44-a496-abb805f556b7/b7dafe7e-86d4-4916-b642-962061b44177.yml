@@ -1,0 +1,66 @@
+id: 'b7dafe7e-86d4-4916-b642-962061b44177'
+name: 'shipments'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'e57038d6-7ca4-4e87-bf6c-863a29c95f05'
+    name: 'shipment_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+      precision: 10
+      scale: 0
+  - id: '069e9f3b-ce41-4704-b55f-b0f476ece490'
+    name: 'store_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+      precision: 10
+      scale: 0
+  - id: '30e914a0-3280-4e84-83cb-fc6513cc2549'
+    name: 'customer_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+      precision: 10
+      scale: 0
+  - id: 'f77b3b55-83b7-49ca-bb59-789102bc77bb'
+    name: 'delivery_address'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 512
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'dda5f496-d773-49a6-b031-796c88b024f2'
+    name: 'shipment_status'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 100
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#1d411f14-1d46-42ec-9417-1fa6fce64a96'
+  - '$initial#name#shipments'
+  - '$sourcesystem#id#b06dc8b9-b0e5-4cfc-8d1f-22863f4d04ae'

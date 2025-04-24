@@ -1,0 +1,42 @@
+id: '6820124a-db61-4455-b779-a7bd550b7718'
+name: 'customers'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '964bbff9-4436-4014-843f-6772137fcd6a'
+    name: 'customer_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+      precision: 10
+      scale: 0
+  - id: '906230f0-c1b8-4a89-9010-2395707dff1c'
+    name: 'email_address'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'cf5c6c33-c473-4be2-a1cf-adfaf445071a'
+    name: 'full_name'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#1d411f14-1d46-42ec-9417-1fa6fce64a96'
+  - '$initial#name#customers'
+  - '$sourcesystem#id#b06dc8b9-b0e5-4cfc-8d1f-22863f4d04ae'

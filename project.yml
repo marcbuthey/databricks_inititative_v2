@@ -9,4 +9,5 @@ sourceSystems:
   - id: 'b06dc8b9-b0e5-4cfc-8d1f-22863f4d04ae'
     name: 'bigenius-source-server.database.windows.net'
     description: ''
+    activeDiscovery: '1d411f14-1d46-42ec-9417-1fa6fce64a96'
     sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
