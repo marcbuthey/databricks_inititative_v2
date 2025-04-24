@@ -1,0 +1,13 @@
+views:
+  - id: '6075e8ab-3f3c-4f5c-b260-aa17da415e8c'
+    name: 'Datapipe View 1'
+    description: 'Default view for data pipe.'
+    default: true
+    type: 'data-pipe'
+    modelObjects: []
+  - id: '34a4c18e-2272-4711-8bb3-7e34a6c2d14d'
+    name: 'Datamodel View 1'
+    description: 'Default view for data model.'
+    default: true
+    type: 'data-model'
+    modelObjects: []

@@ -1,0 +1,7 @@
+id: '1a384cb4-3327-473c-7368-08dd7ccec69f'
+name: 'MB_databricks_initiative_V2'
+description: ''
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.DimensionalAndMart.Spark.Databricks'
+  version: '1.8.0'
